@@ -1,0 +1,24 @@
+# 最低必需配置
+site_name: fivefive  # 👈 这是必须的字段
+nav:
+  - Page: index.md
+
+extra_javascript:
+  - js/timer.js
+
+theme:
+  name: material  # 推荐使用 material 主题
+  features:
+    - navigation.tracking  # 保持基本导航功能
+  custom_dir: overrides    # 添加主题覆盖目录
+  font:
+    text: "Space Grotesk"  # 几何感极强的开源字体
+    code: "JetBrains Mono"
+  palette:
+    primary: "black"
+    accent: "silver"
+
+extra_css:
+  - stylesheets/extra.css
+
+
