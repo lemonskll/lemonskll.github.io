@@ -1,3 +1,9 @@
+site_url: http://www.needplus.love   # 替换为你的域名
+extra:
+  cname: needplus.love  # 可选，某些主题需要
+
+  
+
 # 最低必需配置
 site_name: fivefive  # 👈 这是必须的字段
 nav:
