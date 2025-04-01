@@ -1,0 +1,24 @@
+/* 完全移除侧边栏 */
+.md-sidebar {
+    display: none !important;
+}
+.md-typeset h1 {
+}
+/* 主内容区调整 */
+.md-main {
+    flex-grow: 1;
+    margin-left: 0 !important;
+}
+
+.md-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.counter {
+    /* 添加等宽字体保证数字对齐 */
+    font-family: 'Courier New', monospace;
+    /* 调大字号适应更多内容 */
+    font-size: 2rem;
+}
