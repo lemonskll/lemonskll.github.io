@@ -13,6 +13,6 @@ theme:
   custom_dir: overrides    # 添加主题覆盖目录
 
 extra_css:
-  - styles/extra.css
+  - /styles/extra.css
 extra_javascript:
-  - scripts/extra.js
+  - /scripts/extra.js
