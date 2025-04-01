@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Page","text":"2022-05-02 \u7b2c\u4e00\u6b21 2023-05-20 \u7b2c\u4e8c\u6b21"}]}
+{"config":{"indexing":"full","lang":["en"],"min_search_length":3,"prebuild_index":false,"separator":"[\\s\\-]+"},"docs":[{"location":"","text":"0 Days 0 Hours 0 Minutes 0 Seconds + Goooo 2023-01-01 1","title":"Page"}]}
