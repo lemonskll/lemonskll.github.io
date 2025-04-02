@@ -10,7 +10,7 @@ nav:
 
 
 theme:
-  name: material  # 推荐使用 material 主题
+  name: null  # 推荐使用 material 主题
   features:
     - navigation.tracking  # 保持基本导航功能
   custom_dir: overrides    # 添加主题覆盖目录
