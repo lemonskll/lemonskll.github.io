@@ -4,22 +4,9 @@ extra:
 
 
 # 最低必需配置
-site_name: fivefive  # 👈 这是必须的字段
+site_name: My Site
 nav:
-  - Page: index.md
+    - Home: index.html  # 确保导航指向index.html
 
-
-theme:
-  name: null  # 推荐使用 material 主题
-  features:
-    - navigation.tracking  # 保持基本导航功能
-  custom_dir: overrides    # 添加主题覆盖目录
-  font:
-    text: "Space Grotesk"  # 几何感极强的开源字体
-    code: "JetBrains Mono"
-  palette:
-    primary: "black"
-    accent: "silver"
-
-extra_css:
-    - stylesheets/extra.css
+# 确保没有index.md，避免冲突
+use_directory_urls: false  # 禁用目录URL，直接访问index.html
