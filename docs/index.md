@@ -1,6 +1,6 @@
 ---
 extra_css:
-  - styles/extra.css
+  - stylesheets/extra.css
 extra_javascript:
   - scripts/extra.js
 template: custom_page.html  # 关键：指向独立模板
