@@ -1,0 +1,11 @@
+name: Disable Jekyll Build
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip Jekyll build
+        run: echo "SKIP_JEKYLL=true" >> $GITHUB_ENV
